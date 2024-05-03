@@ -13,12 +13,8 @@ function setSignerAddress(req, res, next) {
 } 
 
 async function isUniversity(req,res,next){
-  const addd =  req.session.account;
-  console.log(typeof addd)
 try {
-    const university = await universityModel.findOne({
-        universityAddress: addd })
-    console.log(university)
+    const university = await universityModel.findOne({universityAddress: req.session.account})
     if(!university) {
         return res.redirect('/')
     }

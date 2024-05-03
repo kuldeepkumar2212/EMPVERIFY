@@ -17,15 +17,7 @@ const hashMap = new Map()
 //     return fs
 // }
 
-const ipfs = create({
-    host: 'api.pinata.cloud',
-    port: 5001,
-    protocol: 'https',
-    headers: {
-      'pinata_api_key': process.env.PINATA_API_KEY,
-      'pinata_secret_api_key': process.env.PINATA_API_SECRET
-    }
-  });
+const ipfs = create({ host: '127.0.0.1', port: 5001, protocol: 'http' });
 
 router.post('/uploadToIPFS', upload.single('studentDocument'), async (req, res) => {
     try {
