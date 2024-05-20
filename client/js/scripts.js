@@ -100,8 +100,13 @@ document.getElementById('metamask').addEventListener('click', async (event) => {
 
          const provider = new ethers.providers.Web3Provider(window.ethereum);
             const accounts = await provider.listAccounts();
-            const signer = provider.getSigner(accounts[0]);
-            const signerAddress = await signer.getAddress();
+            // const signer = provider.getSigner(accounts[0]);
+            // const signerAddress = await signer.getAddress();
+
+
+            await provider.send('eth_requestAccounts', []); // <- this promps user to connect metamask
+            const signer = provider.getSigner();
+            const  signerAddress = await signer.getAddress();
         try{
             const response = await fetch('/check', {
                                     method: "POST",
