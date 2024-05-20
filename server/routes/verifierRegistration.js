@@ -17,7 +17,8 @@ router.get('/register', (req, res) => {
 
 
 router.get('/login' , (req,res)=>{
-    res.render('login')
+    res.render('login', {message: req.session.message})
+    req.session.message = ''
 })
 
 
@@ -53,11 +54,13 @@ router.post('/login', async (req, res) => {
     try {
         const verifier = await verifierModel.findOne({ email: email });
         if (!verifier) {
+            req.session.message = 'Wrong Credentials'
             return res.status(400).redirect('/login');
         }
 
         const match = await bcrypt.compare(password, verifier.password);
         if (!match) {
+            req.session.message = 'Wrong Credentials'
             return res.redirect('/login');
         }
         req.session.account = email

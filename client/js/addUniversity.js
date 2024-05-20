@@ -159,7 +159,7 @@ document.getElementById('submit').addEventListener('click' ,async(event) => {
             image.src = `data:image/jpeg;base64,${universityData.logo}`; // Assuming 'logo' is the field storing image path in MongoDB
             listItem.appendChild(image);
             universitiesList.appendChild(listItem);
-        }
+         }        
     } catch (error) {
         console.error(error)
     }
