@@ -1,3 +1,5 @@
+<h6>This repository is the Local version. To check Deployed Version <a href="https://github.com/SadanandMiskin/EMPVERIFY_DEPLOY">Click Here</a>.</h6>
+
 ![logo](https://github.com/SadanandMiskin/EMPVERIFY/assets/119523972/82d6731a-401b-47f9-81cc-9d9fec1cfbcf)
 
 <p>EMPVERIFY is a  platform which allows Document verification of the Employee which is added by his/her organization by Verifier powered by Blockchain</p>
@@ -17,7 +19,8 @@
 
 
 ## Working 
-![image](https://github.com/SadanandMiskin/EMPVERIFY/assets/119523972/867de8ef-d818-4a6d-ab96-c62afa023b51) ![image](https://github.com/SadanandMiskin/EMPVERIFY/assets/119523972/5cd062cc-eb5e-41e1-a091-4d5b161a6d3d)
+![image](https://github.com/SadanandMiskin/EMPVERIFY/assets/119523972/867de8ef-d818-4a6d-ab96-c62afa023b51) ![image](https://github.com/kuldeepkumar2212/EMPVERIFY/assets/119523972/34ac28fb-a44c-41c9-b9b1-5f735a0ca882)
+
 
 
 
@@ -35,7 +38,7 @@
 5. Open terminal and run `ipfs daemon`
 
 6. Install dependencies:
-    `npm install`
+    `npm install` or `yarn install`
    
 7.  Compile the contract using:
     - `npm run compile`
