@@ -1,6 +1,5 @@
 <h6>This repository is the Local version. To check Deployed Version <a href="https://github.com/SadanandMiskin/EMPVERIFY_DEPLOY">Click Here</a>.
- <br>
-On Render.com- <a href="https://empverify.onrender.com/">Deployed</a></h6>
+
 
 ![logo](https://github.com/SadanandMiskin/EMPVERIFY/assets/119523972/82d6731a-401b-47f9-81cc-9d9fec1cfbcf)
 
@@ -67,3 +66,22 @@ Server running on `http://localhost:3000`
 - Verfier register himself and then using wallet address of the employee the verifier can request  required documents for that particulat employee.
 - Employee can able to Accept or Revoke the request by verifier
 - The document Link shared to verifier is a `Temporary Link` and after `Revoked` by employeee the link will be expired.
+
+
+
+# ScreenShots
+<img src="https://github.com/kuldeepkumar2212/EMPVERIFY/assets/119523972/634d2393-2595-4e12-909c-dba1bb525eab" style="width: 280px; height: 200px;">
+
+<img src="https://github.com/kuldeepkumar2212/EMPVERIFY/assets/119523972/b7ae0933-467e-4fe0-b80b-e63c83f10dc7" style="width: 380px; height: 200px;">
+
+
+<img src="https://github.com/kuldeepkumar2212/EMPVERIFY/assets/119523972/98ef16fb-e343-4c4f-bb47-bd7b1750f27b" style="width: 280px; height: 200px;">
+
+
+<h3>Any dependencies, issues, any sort of updation please create an Issue - <a href="https://github.com/kuldeepkumar2212/EMPVERIFY/issues">Here</a>.</h3> 
+
+# Contributors
+<a href="https://github.com/kuldeepkumar2212/EMPVERIFY/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=kuldeepkumar2212/EMPVERIFY" />
+</a>
+
